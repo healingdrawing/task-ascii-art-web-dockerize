@@ -1,0 +1,1 @@
+docker image build -f Dockerfile -t aawd . && docker container run -p 8080:8080 --detach --name plusbash aawd

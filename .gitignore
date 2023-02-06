@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# But not these files...
+!/.gitignore
+
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!LICENSE
+!*.txt
+!*.png
+!*.sh
+!Dockerfile
+!LICENSE
+!*.html
+!*.css
+!*.ttf
+
+# !Makefile
+
+# ...even if they are in subdirectories
+!*/
+
